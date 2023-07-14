@@ -3,14 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet using putchar function. 
+ * Description: print all alphabet letters
  *
  * Return: Always 0 (success)
 */
 
-int main(0) 
+int main(void)
 {
 	for (char i = 'a'; i <= 'z'; i++)
 	putchar(i);
+	putchar('\n');
 	return (0);
 }
