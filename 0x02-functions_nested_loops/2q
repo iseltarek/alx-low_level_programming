@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ * prirnt_alphabet-x10 - utilizes on the _putchar function.
+*/
+
+void print_alphabet-x10(void)
+{
+	int n;
+	char ch;
+
+	for (n = 0; n < 10; n++)
+	{
+		for (ch = 'a'; ch <= 'z'; ch++)
+			_putchar(ch);
+		_putchar('\n');
+	}
+}
