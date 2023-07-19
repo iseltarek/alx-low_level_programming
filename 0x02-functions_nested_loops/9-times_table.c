@@ -21,7 +21,6 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((pro / 10) + 48);
-		
 			_putchar((pro % 10) + 48);
 		}
 		_putchar('\n');
