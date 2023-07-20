@@ -8,10 +8,10 @@
 
 void print_times_table(int n)
 {
-	if (n <= 15 || n > 0)
-	{
-		int i, j, pro;
+	 int i, j, pro;
 
+	if (n <= 15 || n >= 0)
+	{
 		for (i = 0; i <= n; ++i)
 		{
 			_putchar(48);
@@ -28,7 +28,7 @@ void print_times_table(int n)
 				if (pro >= 100)
 				{
 					_putchar((pro / 100) + 48);
-					_putchar((pro % 10) + 48);
+					_putchar((pro / 10) % 10 + 48);
 				}
 				else if (pro <= 99 && pro >= 10)
 					_putchar((pro / 10) + 48);
