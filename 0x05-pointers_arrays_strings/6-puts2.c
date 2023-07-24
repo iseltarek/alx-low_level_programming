@@ -10,25 +10,12 @@
 
 void puts2(char *str)
 {
-	int i = 0, x;
+	int i;
 
-	while (str[i])
-		i++;
-	if (str[0] >= 48 && str[0] <= 58)
+	for (i = 0; str[i] != '\0'; ++i)
 	{
-	for (x = 0; x < i; x++)
-	{
-		putchar(48 + x);
-		x++;
-	}
-	}
-	else
-	{
-		for (x = 0; x < i; x++)
-        {
-                putchar(x);
-                x++;
-        }
+		if (i % 2 ==0)
+			putchar(str[i]);
 	}
 		putchar('\n');
 }
