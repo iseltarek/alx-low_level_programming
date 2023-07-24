@@ -6,4 +6,4 @@
 
 void reset_to_98(int *n);
 
-#endif 
+#endif /* MAIN_H */ 
