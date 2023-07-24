@@ -14,9 +14,20 @@ void puts2(char *str)
 
 	while (str[i])
 		i++;
+	if (str[0] >= 48 && str[0] <= 58)
+	{
 	for (x = 0; x < i; x++)
 	{
 		putchar(48 + x);
 		x++;
 	}
+	}
+	else
+	{
+		for (x = 0; x < i; x++)
+        {
+                putchar(x);
+                x++;
+        }
+		putchar('\n');
 }
