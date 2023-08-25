@@ -4,7 +4,7 @@
  * @s: char
  * Return: integr
 */
-int _strlen(char *s)
+/**int _strlen(char *s)
 {
 	int i = 0;
 
@@ -13,7 +13,7 @@ int _strlen(char *s)
 	while (*s++)
 		i++;
 	return (i);
-}
+}*/
 /**
  * print_list - prints a limked list
  * @h: pointer
