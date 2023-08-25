@@ -16,8 +16,8 @@ int _strlen(char *s)
 }
 /**
  * print_list - prints a limked list
- * @h: pointer 
- * Retuen: size of list
+ * @h: pointer
+ * Return: size of list
 */
 size_t print_list(const list_t *h)
 {
